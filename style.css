@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #ffe1e1;
+    font-size: 12px;
+}
+
+.card-bg{
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+}
+.card-bg-img{
+    width: 210px;
+    height: 210px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-primary{
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+.img-primary-gallery{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.right{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+    /* background-color: aqua; */
+}
+.left{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    
+    /* background-color: aqua; */
+}
+
+.bg-img{
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-image: url(assets/WhatsApp\ Image\ 2023-09-29\ at\ 21.41.04_25c2d412.jpg);
+}
+
+
+.content-header{
+    background-color: #ffe1e1;
+    min-height: 100vh;
+}
